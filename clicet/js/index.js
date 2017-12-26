@@ -79,4 +79,9 @@ $(function () {
             }
         });
     })
+
+    var r = window.location.search;
+    r = r.substring(r.indexOf("?"),r.length-1);
+
+    alert(r)
 })
